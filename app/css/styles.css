@@ -1,0 +1,58 @@
+/* variables
+---------------------------------------------- */
+/* Keyframes
+---------------------------------------------- */
+/* Global
+---------------------------------------------- */
+html, body {
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  background: #EDA7FF;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #EDA7FF, #7B25FF);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #EDA7FF, #7B25FF);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #EDA7FF, #7B25FF);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #EDA7FF, #7B25FF);
+  /* Standard syntax */ }
+
+/* Typography
+---------------------------------------------- */
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("../fonts/roboto/Roboto-Thin.ttf"), url("../fonts/roboto/Roboto-Thin.ttf");
+  /* IE */ }
+
+/* Description Elements
+---------------------------------------------- */
+.headline {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  font-family: Roboto-Thin;
+  margin: 50px 0px; }
+
+.headline h1 {
+  margin: 0px; }
+
+/* Switch
+---------------------------------------------- */
+.switch-container {
+  display: block;
+  margin: 0 auto;
+  height: 400px;
+  width: 400px;
+  background: url("../images/icon-base.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: realtive; }
+
+.switch-base {
+  display: block;
+  margin: 0 auto;
+  height: 375px; }
